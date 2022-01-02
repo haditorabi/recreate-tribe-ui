@@ -2,15 +2,15 @@ import React from "react";
 export default function LeftSidebar() {
   return (
     <aside
-      className="hidden lg:col-span-3 lg:block  xl:col-span-3 pt-5 sm:pt-7"
+      className="hidden lg:block lg:col-span-3 xl:col-span-3 pt-5 sm:pt-7"
       aria-label="Sidebar"
     >
       <nav className="flex-1 space-y-8 isolate mb-5" aria-label="Sidebar">
         <div className="space-y-1" role="group">
           <a
             className="bg-main-200 text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
-            aria-current="page"
             href="/"
+            aria-current="page"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -26,28 +26,6 @@ export default function LeftSidebar() {
           </a>
           <a
             className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
-            href="/members"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              aria-hidden="true"
-              focusable="false"
-              className="text-basicMain-400 group-hover:text-basicMain-600 flex-shrink-0 -ml-1 mr-3 h-6 w-6"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
-              ></path>
-            </svg>
-            <span className="truncate">Members</span>
-          </a>
-          <a
-            className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
             href="/spaces"
           >
             <svg
@@ -60,13 +38,35 @@ export default function LeftSidebar() {
               className="text-basicMain-400 group-hover:text-basicMain-600 flex-shrink-0 -ml-1 mr-3 h-6 w-6"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
               ></path>
             </svg>
             <span className="truncate">Spaces</span>
+          </a>
+          <a
+            className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
+            href="/member/cwY77BWEP8"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              aria-hidden="true"
+              focusable="false"
+              className="text-basicMain-400 group-hover:text-basicMain-600 flex-shrink-0 -ml-1 mr-3 h-6 w-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              ></path>
+            </svg>
+            <span className="truncate">Profile</span>
           </a>
         </div>
       </nav>
@@ -78,10 +78,10 @@ export default function LeftSidebar() {
           >
             <div className="items-center justify-center w-6 h-6 rounded-md mr-3 -ml-1 hover:bg-main-200">
               <a
-                id="headlessui-disclosure-button-23"
+                id="headlessui-disclosure-button-3"
                 aria-expanded="true"
                 href="/"
-                aria-controls="headlessui-disclosure-panel-24"
+                aria-controls="headlessui-disclosure-panel-4"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -91,9 +91,9 @@ export default function LeftSidebar() {
                   className="w-6 h-6 transform transition-transform"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   ></path>
                 </svg>
               </a>
@@ -102,7 +102,7 @@ export default function LeftSidebar() {
               Get Started
             </span>
           </a>
-          <div id="headlessui-disclosure-panel-24">
+          <div id="headlessui-disclosure-panel-4">
             <div className="space-y-1" role="group">
               <a
                 className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
@@ -114,7 +114,7 @@ export default function LeftSidebar() {
                       alt="About Campfire"
                       className="text-basicSurface-400 group-hover:text-basicSurface-500 object-scale-down flex-shrink-0 rounded-md h-6 w-6"
                       aria-hidden="true"
-                      src="https://tribe-s3-production.imgix.net/EtZ7IaN8Avn5ZBCrNaNhD?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
+                      src="https://tribe-s3-production.imgix.net/Yw7bjAiJpROcRbt2ddbDV?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
                     />
                   </div>
                 </div>
@@ -130,7 +130,7 @@ export default function LeftSidebar() {
                       alt="Say Hello"
                       className="text-basicSurface-400 group-hover:text-basicSurface-500 object-scale-down flex-shrink-0 rounded-md h-6 w-6"
                       aria-hidden="true"
-                      src="https://tribe-s3-production.imgix.net/xBdyZkFmFVXoUjXiyZZL3?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
+                      src="https://tribe-s3-production.imgix.net/51m1GMq8g4ruSB14yVEJ1?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
                     />
                   </div>
                 </div>
@@ -146,10 +146,10 @@ export default function LeftSidebar() {
           >
             <div className="items-center justify-center w-6 h-6 rounded-md mr-3 -ml-1 hover:bg-main-200">
               <a
-                id="headlessui-disclosure-button-25"
+                id="headlessui-disclosure-button-5"
                 aria-expanded="true"
                 href="/"
-                aria-controls="headlessui-disclosure-panel-26"
+                aria-controls="headlessui-disclosure-panel-6"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -159,16 +159,16 @@ export default function LeftSidebar() {
                   className="w-6 h-6 transform transition-transform"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   ></path>
                 </svg>
               </a>
             </div>
             <span className="truncate flex-grow font-semibold">Resources</span>
           </a>
-          <div id="headlessui-disclosure-panel-26">
+          <div id="headlessui-disclosure-panel-6">
             <div className="space-y-1" role="group">
               <a
                 className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
@@ -180,7 +180,7 @@ export default function LeftSidebar() {
                       alt="Knowledge Base"
                       className="text-basicSurface-400 group-hover:text-basicSurface-500 object-scale-down flex-shrink-0 rounded-md h-6 w-6"
                       aria-hidden="true"
-                      src="https://tribe-s3-production.imgix.net/UvhJxDH7TzJLsQcRr6dFu?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
+                      src="https://tribe-s3-production.imgix.net/X6ftMXLPPBMuXEumY32Aq?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
                     />
                   </div>
                 </div>
@@ -196,7 +196,7 @@ export default function LeftSidebar() {
                       alt="Community Insights"
                       className="text-basicSurface-400 group-hover:text-basicSurface-500 object-scale-down flex-shrink-0 rounded-md h-6 w-6"
                       aria-hidden="true"
-                      src="https://tribe-s3-production.imgix.net/GfafDTG2FXD4Mp4aBYA5O?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
+                      src="https://tribe-s3-production.imgix.net/wAgSqTPxAkXKLRfZxq8lv?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
                     />
                   </div>
                 </div>
@@ -212,7 +212,7 @@ export default function LeftSidebar() {
                       alt="Tips &amp; Tricks"
                       className="text-basicSurface-400 group-hover:text-basicSurface-500 object-scale-down flex-shrink-0 rounded-md h-6 w-6"
                       aria-hidden="true"
-                      src="https://tribe-s3-production.imgix.net/qBtU65kQlGHJyftqJPaUj?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
+                      src="https://tribe-s3-production.imgix.net/DUvJcCaRnZ74EE2BGDpSw?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
                     />
                   </div>
                 </div>
@@ -228,10 +228,10 @@ export default function LeftSidebar() {
           >
             <div className="items-center justify-center w-6 h-6 rounded-md mr-3 -ml-1 hover:bg-main-200">
               <a
-                id="headlessui-disclosure-button-27"
+                id="headlessui-disclosure-button-7"
                 aria-expanded="true"
                 href="/"
-                aria-controls="headlessui-disclosure-panel-28"
+                aria-controls="headlessui-disclosure-panel-8"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -241,16 +241,16 @@ export default function LeftSidebar() {
                   className="w-6 h-6 transform transition-transform"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   ></path>
                 </svg>
               </a>
             </div>
             <span className="truncate flex-grow font-semibold">Connect</span>
           </a>
-          <div id="headlessui-disclosure-panel-28">
+          <div id="headlessui-disclosure-panel-8">
             <div className="space-y-1" role="group">
               <a
                 className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
@@ -262,7 +262,7 @@ export default function LeftSidebar() {
                       alt="Ask for Help"
                       className="text-basicSurface-400 group-hover:text-basicSurface-500 object-scale-down flex-shrink-0 rounded-md h-6 w-6"
                       aria-hidden="true"
-                      src="https://tribe-s3-production.imgix.net/Dguz0rFnDHeQgdhlmHyxh?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
+                      src="https://tribe-s3-production.imgix.net/GWacb63L13pzSBKTSqzSp?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
                     />
                   </div>
                 </div>
@@ -278,7 +278,7 @@ export default function LeftSidebar() {
                       alt="Show &amp; Tell"
                       className="text-basicSurface-400 group-hover:text-basicSurface-500 object-scale-down flex-shrink-0 rounded-md h-6 w-6"
                       aria-hidden="true"
-                      src="https://tribe-s3-production.imgix.net/N1nII6BGrfItIfImdHlGx?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
+                      src="https://tribe-s3-production.imgix.net/fXN7KpT6sSmsLPk6DCpqN?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
                     />
                   </div>
                 </div>
@@ -294,7 +294,7 @@ export default function LeftSidebar() {
                       alt="Give Feedback"
                       className="text-basicSurface-400 group-hover:text-basicSurface-500 object-scale-down flex-shrink-0 rounded-md h-6 w-6"
                       aria-hidden="true"
-                      src="https://tribe-s3-production.imgix.net/Ozgnf7bGhEr8MM2OxIFo0?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
+                      src="https://tribe-s3-production.imgix.net/5YirpF5REdXZXvhrxkahQ?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
                     />
                   </div>
                 </div>
@@ -310,7 +310,7 @@ export default function LeftSidebar() {
                       alt="DevHub"
                       className="text-basicSurface-400 group-hover:text-basicSurface-500 object-scale-down flex-shrink-0 rounded-md h-6 w-6"
                       aria-hidden="true"
-                      src="https://tribe-s3-production.imgix.net/n8BazHlIiS7oqiqqlCwJX?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
+                      src="https://tribe-s3-production.imgix.net/xCFtaAfaiRDvsrklRoDYv?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
                     />
                   </div>
                 </div>
@@ -326,7 +326,7 @@ export default function LeftSidebar() {
                       alt="Beta Feedback"
                       className="text-basicSurface-400 group-hover:text-basicSurface-500 object-scale-down flex-shrink-0 rounded-md h-6 w-6"
                       aria-hidden="true"
-                      src="https://tribe-s3-production.imgix.net/XvxrV1DEqiMwGTUG9vnaw?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
+                      src="https://tribe-s3-production.imgix.net/4UymvirCwAJJfX6WcoqVN?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
                     />
                   </div>
                 </div>
@@ -342,21 +342,22 @@ export default function LeftSidebar() {
           >
             <div className="items-center justify-center w-6 h-6 rounded-md mr-3 -ml-1 hover:bg-main-200">
               <a
-                id="headlessui-disclosure-button-29"
-                aria-expanded="false"
+                id="headlessui-disclosure-button-9"
+                aria-expanded="true"
                 href="/"
+                aria-controls="headlessui-disclosure-panel-10"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                   aria-hidden="true"
-                  className="w-6 h-6 transform transition-transform -rotate-90"
+                  className="w-6 h-6 transform transition-transform"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   ></path>
                 </svg>
               </a>
@@ -365,6 +366,42 @@ export default function LeftSidebar() {
               Announcements
             </span>
           </a>
+          <div id="headlessui-disclosure-panel-10">
+            <div className="space-y-1" role="group">
+              <a
+                className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
+                href="/announcements"
+              >
+                <div className="mr-3 -ml-1">
+                  <div className="flex items-center justify-center h-6 w-6">
+                    <img
+                      alt="Company News"
+                      className="text-basicSurface-400 group-hover:text-basicSurface-500 object-scale-down flex-shrink-0 rounded-md h-6 w-6"
+                      aria-hidden="true"
+                      src="https://tribe-s3-production.imgix.net/IStALYX4gQruQSqN9dT0Q?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
+                    />
+                  </div>
+                </div>
+                <div className="truncate">Company News</div>
+              </a>
+              <a
+                className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
+                href="/whats-new"
+              >
+                <div className="mr-3 -ml-1">
+                  <div className="flex items-center justify-center h-6 w-6">
+                    <img
+                      alt="Product Updates"
+                      className="text-basicSurface-400 group-hover:text-basicSurface-500 object-scale-down flex-shrink-0 rounded-md h-6 w-6"
+                      aria-hidden="true"
+                      src="https://tribe-s3-production.imgix.net/kOyPBBOnp2AmZNWxQnwCf?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
+                    />
+                  </div>
+                </div>
+                <div className="truncate">Product Updates</div>
+              </a>
+            </div>
+          </div>
         </div>
         <div className="space-y-1" role="group">
           <a
@@ -373,27 +410,48 @@ export default function LeftSidebar() {
           >
             <div className="items-center justify-center w-6 h-6 rounded-md mr-3 -ml-1 hover:bg-main-200">
               <a
-                id="headlessui-disclosure-button-31"
-                aria-expanded="false"
+                id="headlessui-disclosure-button-11"
+                aria-expanded="true"
                 href="/"
+                aria-controls="headlessui-disclosure-panel-12"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
                   aria-hidden="true"
-                  className="w-6 h-6 transform transition-transform -rotate-90"
+                  className="w-6 h-6 transform transition-transform"
                 >
                   <path
-                    fill-rule="evenodd"
+                    fillRule="evenodd"
                     d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
+                    clipRule="evenodd"
                   ></path>
                 </svg>
               </a>
             </div>
             <span className="truncate flex-grow font-semibold">Tribe 1.0</span>
           </a>
+          <div id="headlessui-disclosure-panel-12">
+            <div className="space-y-1" role="group">
+              <a
+                className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
+                href="/tribe-1-knowledge-base"
+              >
+                <div className="mr-3 -ml-1">
+                  <div className="flex items-center justify-center h-6 w-6">
+                    <img
+                      alt="Knowledge Base (1.0)"
+                      className="text-basicSurface-400 group-hover:text-basicSurface-500 object-scale-down flex-shrink-0 rounded-md h-6 w-6"
+                      aria-hidden="true"
+                      src="https://tribe-s3-production.imgix.net/HGTXo46bzFq834prsoM03?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
+                    />
+                  </div>
+                </div>
+                <div className="truncate">Knowledge Base (1.0)</div>
+              </a>
+            </div>
+          </div>
         </div>
       </nav>
       <div className="flex flex-col space-y-3 mt-8 px-3">
@@ -414,7 +472,7 @@ export default function LeftSidebar() {
           </a>
         </div>
         <div className="text-xs text-basicMain-600" aria-label="Copyright">
-          © Copyright 2021,Tribe Campfire
+          © Copyright 2022, Tribe Campfire
         </div>
       </div>
     </aside>

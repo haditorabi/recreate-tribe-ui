@@ -21,7 +21,7 @@ export default function Leadeboard() {
                 role="tab"
                 type="button"
                 aria-selected="true"
-                tabindex="0"
+                allowFullScreentabIndex="0"
                 aria-controls="headlessui-tabs-panel-38"
               >
                 All time
@@ -33,7 +33,7 @@ export default function Leadeboard() {
                 role="tab"
                 type="button"
                 aria-selected="false"
-                tabindex="-1"
+                allowFullScreentabIndex="-1"
               >
                 Month
               </button>
@@ -44,7 +44,7 @@ export default function Leadeboard() {
                 role="tab"
                 type="button"
                 aria-selected="false"
-                tabindex="-1"
+                allowFullScreentabIndex="-1"
               >
                 Week
               </button>
@@ -56,369 +56,48 @@ export default function Leadeboard() {
                   id="headlessui-tabs-panel-38"
                   role="tabpanel"
                   aria-labelledby="headlessui-tabs-tab-35"
-                  tabindex="0"
+                  allowFullScreentabIndex="0"
                 >
                   <div className="grid grid-cols-1 gap-1 -ml-2 -mr-2">
-                    <a
-                      className="hover-trigger flex space-x-3 items-center p-2 rounded-md hover:bg-surface-100"
-                      href="/member/5b881b2a90ecbe6751123d7e"
-                    >
-                      <span className="text-lg font-medium w-5 text-center flex-shrink-0 whitespace-nowrap">
-                        1
-                      </span>
-                      <span className="inline-block relative flex-shrink-0">
-                        <img
-                          className="bg-surface-50 inline-block object-cover object-center rounded-full h-10 w-10"
-                          src="https://tribe-s3-production.imgix.net/HEHU80kJxIRbjahSDgxK2?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
-                          alt="Eli "
-                        />
-                      </span>
-                      <div className="flex-grow max-w-full overflow-hidden">
-                        <div className="truncate text-basicSurface-900">
-                          Eli{" "}
+                    {[...Array(10)].map((x, index) => (
+                      <a
+                        key={index}
+                        className="hover-trigger flex space-x-3 items-center p-2 rounded-md hover:bg-surface-100"
+                        href="/member/5b881b2a90ecbe6751123d7e"
+                      >
+                        <span className="inline-block relative flex-shrink-0">
+                          <img
+                            className="bg-surface-50 inline-block object-cover object-center rounded-full h-10 w-10"
+                            src="https://tribe-s3-production.imgix.net/HEHU80kJxIRbjahSDgxK2?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
+                            alt="Eli "
+                          />
+                        </span>
+                        <div className="flex-grow w-50 overflow-hidden">
+                          <div className="truncate text-basicSurface-900">
+                            Eli{" "}
+                          </div>
                         </div>
-                      </div>
-                      <div>
-                        <svg
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                          className="hover-target mr-2 w-5 h-5 text-basicSurface-400"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 5l7 7-7 7"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      className="hover-trigger flex space-x-3 items-center p-2 rounded-md hover:bg-surface-100"
-                      href="/member/2w0cqhJurN"
-                    >
-                      <span className="text-lg font-medium w-5 text-center flex-shrink-0 whitespace-nowrap">
-                        2
-                      </span>
-                      <span className="inline-block relative flex-shrink-0">
-                        <img
-                          className="bg-surface-50 inline-block object-cover object-center rounded-full h-10 w-10"
-                          src="https://tribe-s3-production.imgix.net/mAa3XLSYNO6csmfdkiWCc?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
-                          alt="Alexa Kempton"
-                        />
-                      </span>
-                      <div className="flex-grow max-w-full overflow-hidden">
-                        <div className="truncate text-basicSurface-900">
-                          Alexa Kempton
+                        <span className="text-lg font-medium w-5 text-center flex-shrink-0 whitespace-nowrap">
+                          {index + 1}
+                        </span>
+                        <div>
+                          <svg
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                            className="hover-target mr-2 w-5 h-5 text-basicSurface-400"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                              d="M9 5l7 7-7 7"
+                            ></path>
+                          </svg>
                         </div>
-                      </div>
-                      <div>
-                        <svg
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                          className="hover-target mr-2 w-5 h-5 text-basicSurface-400"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 5l7 7-7 7"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      className="hover-trigger flex space-x-3 items-center p-2 rounded-md hover:bg-surface-100"
-                      href="/member/9FWKl7YerU"
-                    >
-                      <span className="text-lg font-medium w-5 text-center flex-shrink-0 whitespace-nowrap">
-                        3
-                      </span>
-                      <span className="inline-block relative flex-shrink-0">
-                        <img
-                          className="bg-surface-50 inline-block object-cover object-center rounded-full h-10 w-10"
-                          src="https://tribe-s3-production.imgix.net/Az0oAq9gWidQEKZp2B4Hb?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
-                          alt="Siavash"
-                        />
-                      </span>
-                      <div className="flex-grow max-w-full overflow-hidden">
-                        <div className="truncate text-basicSurface-900">
-                          Siavash
-                        </div>
-                      </div>
-                      <div>
-                        <svg
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                          className="hover-target mr-2 w-5 h-5 text-basicSurface-400"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 5l7 7-7 7"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      className="hover-trigger flex space-x-3 items-center p-2 rounded-md hover:bg-surface-100"
-                      href="/member/6005d798d50aaa6bfaf76024"
-                    >
-                      <span className="text-lg font-medium w-5 text-center flex-shrink-0 whitespace-nowrap">
-                        4
-                      </span>
-                      <span className="inline-block relative flex-shrink-0">
-                        <img
-                          className="bg-surface-50 inline-block object-cover object-center rounded-full h-10 w-10"
-                          src="https://tribe-s3-production.imgix.net/MgYBhYzuOx0iHRznrLcPF?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
-                          alt="Sid Says"
-                        />
-                      </span>
-                      <div className="flex-grow max-w-full overflow-hidden">
-                        <div className="truncate text-basicSurface-900">
-                          Sid Says
-                        </div>
-                      </div>
-                      <div>
-                        <svg
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                          className="hover-target mr-2 w-5 h-5 text-basicSurface-400"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 5l7 7-7 7"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      className="hover-trigger flex space-x-3 items-center p-2 rounded-md hover:bg-surface-100"
-                      href="/member/6L2yq94wh6"
-                    >
-                      <span className="text-lg font-medium w-5 text-center flex-shrink-0 whitespace-nowrap">
-                        5
-                      </span>
-                      <span className="inline-block relative flex-shrink-0">
-                        <img
-                          className="bg-surface-50 inline-block object-cover object-center rounded-full h-10 w-10"
-                          src="https://tribe-s3-production.imgix.net/hs4MpdLAFi8kaV3nXCGxj?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
-                          alt="CJ Verma"
-                        />
-                      </span>
-                      <div className="flex-grow max-w-full overflow-hidden">
-                        <div className="truncate text-basicSurface-900">
-                          CJ Verma
-                        </div>
-                      </div>
-                      <div>
-                        <svg
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                          className="hover-target mr-2 w-5 h-5 text-basicSurface-400"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 5l7 7-7 7"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      className="hover-trigger flex space-x-3 items-center p-2 rounded-md hover:bg-surface-100"
-                      href="/member/11byJ5RJPO"
-                    >
-                      <span className="text-lg font-medium w-5 text-center flex-shrink-0 whitespace-nowrap">
-                        6
-                      </span>
-                      <span className="inline-block relative flex-shrink-0">
-                        <img
-                          className="bg-surface-50 inline-block object-cover object-center rounded-full h-10 w-10"
-                          src="https://tribe-s3-production.imgix.net/UYbF6YrFIj46Gml2ge9GN?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
-                          alt="shanny"
-                        />
-                      </span>
-                      <div className="flex-grow max-w-full overflow-hidden">
-                        <div className="truncate text-basicSurface-900">
-                          shanny
-                        </div>
-                      </div>
-                      <div>
-                        <svg
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                          className="hover-target mr-2 w-5 h-5 text-basicSurface-400"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 5l7 7-7 7"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      className="hover-trigger flex space-x-3 items-center p-2 rounded-md hover:bg-surface-100"
-                      href="/member/OFNwuYKhMf"
-                    >
-                      <span className="text-lg font-medium w-5 text-center flex-shrink-0 whitespace-nowrap">
-                        7
-                      </span>
-                      <span className="inline-block relative flex-shrink-0">
-                        <img
-                          className="bg-surface-50 inline-block object-cover object-center rounded-full h-10 w-10"
-                          src="https://tribe-s3-production.imgix.net/ySprGdzl0kBuAzk3YWx6R?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
-                          alt="Mo Malayeri"
-                        />
-                      </span>
-                      <div className="flex-grow max-w-full overflow-hidden">
-                        <div className="truncate text-basicSurface-900">
-                          Mo Malayeri
-                        </div>
-                      </div>
-                      <div>
-                        <svg
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                          className="hover-target mr-2 w-5 h-5 text-basicSurface-400"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 5l7 7-7 7"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      className="hover-trigger flex space-x-3 items-center p-2 rounded-md hover:bg-surface-100"
-                      href="/member/o0eKectvvg"
-                    >
-                      <span className="text-lg font-medium w-5 text-center flex-shrink-0 whitespace-nowrap">
-                        8
-                      </span>
-                      <span className="inline-block relative flex-shrink-0">
-                        <img
-                          className="bg-surface-50 inline-block object-cover object-center rounded-full h-10 w-10"
-                          src="https://tribe-s3-production.imgix.net/2dfy6b6y8f3Ivoydpnjad?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
-                          alt="Flip"
-                        />
-                      </span>
-                      <div className="flex-grow max-w-full overflow-hidden">
-                        <div className="truncate text-basicSurface-900">
-                          Flip
-                        </div>
-                      </div>
-                      <div>
-                        <svg
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                          className="hover-target mr-2 w-5 h-5 text-basicSurface-400"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 5l7 7-7 7"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      className="hover-trigger flex space-x-3 items-center p-2 rounded-md hover:bg-surface-100"
-                      href="/member/sWbVLZH7gB"
-                    >
-                      <span className="text-lg font-medium w-5 text-center flex-shrink-0 whitespace-nowrap">
-                        9
-                      </span>
-                      <span className="inline-block relative flex-shrink-0">
-                        <img
-                          className="bg-surface-50 inline-block object-cover object-center rounded-full h-10 w-10"
-                          src="https://tribe-s3-production.imgix.net/slAa8NUYlOVsswgERNJlb?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
-                          alt="Javier Alaves"
-                        />
-                      </span>
-                      <div className="flex-grow max-w-full overflow-hidden">
-                        <div className="truncate text-basicSurface-900">
-                          Javier Alaves
-                        </div>
-                      </div>
-                      <div>
-                        <svg
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                          className="hover-target mr-2 w-5 h-5 text-basicSurface-400"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 5l7 7-7 7"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      className="hover-trigger flex space-x-3 items-center p-2 rounded-md hover:bg-surface-100"
-                      href="/member/ARuxOM3VMU"
-                    >
-                      <span className="text-lg font-medium w-5 text-center flex-shrink-0 whitespace-nowrap">
-                        10
-                      </span>
-                      <span className="inline-block relative flex-shrink-0">
-                        <img
-                          className="bg-surface-50 inline-block object-cover object-center rounded-full h-10 w-10"
-                          src="https://tribe-s3-production.imgix.net/PMYR2jc4vs8l8IEs2FV0O?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
-                          alt="Ari Diamond"
-                        />
-                      </span>
-                      <div className="flex-grow max-w-full overflow-hidden">
-                        <div className="truncate text-basicSurface-900">
-                          Ari Diamond
-                        </div>
-                      </div>
-                      <div>
-                        <svg
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          aria-hidden="true"
-                          className="hover-target mr-2 w-5 h-5 text-basicSurface-400"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M9 5l7 7-7 7"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
+                      </a>
+                    ))}
                   </div>
                 </div>
               </div>

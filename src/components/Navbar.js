@@ -15,9 +15,9 @@ export default function Navbar() {
                 className="h-8 w-8"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M4 6h16M4 12h16M4 18h16"
                 ></path>
               </svg>
@@ -26,8 +26,8 @@ export default function Navbar() {
               <div style={{ maxWidth: "300px" }} className="max-h-8 block">
                 <img
                   className="object-contain h-8 max-h-full max-w-full"
-                  src="https://tribe-s3-production.imgix.net/h6kH9gG5qAra9FIhALFPb?w=500&amp;auto=compress,format&amp;dl"
-                  alt="Tribe Campfire"
+                  src="https://tribe.so/webflow-v2/images/TribeLogo.svg"
+                  alt="Tribe.so"
                 />
               </div>
             </a>
@@ -53,9 +53,9 @@ export default function Navbar() {
                             className="h-5 w-5 text-basicSecondary-400"
                           >
                             <path
-                              fill-rule="evenodd"
+                              fillRule="evenodd"
                               d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
-                              clip-rule="evenodd"
+                              clipRule="evenodd"
                             ></path>
                           </svg>
                         </div>
@@ -66,7 +66,7 @@ export default function Navbar() {
                           aria-autocomplete="list"
                           aria-controls="downshift-149-menu"
                           aria-labelledby="downshift-149-label"
-                          autocomplete="off"
+                          autoComplete="off"
                           value=""
                           placeholder="Search..."
                         />
@@ -93,9 +93,9 @@ export default function Navbar() {
                     className="h-5 w-5"
                   >
                     <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
                     ></path>
                   </svg>
@@ -126,9 +126,9 @@ export default function Navbar() {
                               focusable="false"
                             >
                               <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth="2"
                                 d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
                               ></path>
                             </svg>
