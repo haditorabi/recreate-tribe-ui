@@ -1,4 +1,6 @@
 import React from "react";
+import Copyright from "./Copyright";
+
 export default function Leadeboard() {
   return (
     <div className="hidden lg:block lg:col-span-4 sticky top-0">
@@ -105,6 +107,7 @@ export default function Leadeboard() {
           </div>
         </div>
       </div>
+      <Copyright />
     </div>
   );
 }
