@@ -77,6 +77,7 @@ export default function SamplePost() {
                     >
                       <div>
                         <div
+                          className="border-t-2 border-b-2 border-neutral-200"
                           style={{
                             left: "0",
                             width: "100%",
