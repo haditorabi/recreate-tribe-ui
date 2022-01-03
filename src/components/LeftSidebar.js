@@ -105,23 +105,23 @@ export default function LeftSidebar() {
           <div id="headlessui-disclosure-panel-4">
             <div className="space-y-1" role="group">
               <a
-                className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
+                className="ml-6 text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
                 href="/start-here"
               >
                 <div className="mr-3 -ml-1">
                   <div className="flex items-center justify-center h-6 w-6">
                     <img
-                      alt="About Campfire"
+                      alt="About Tribe"
                       className="text-basicSurface-400 group-hover:text-basicSurface-500 object-scale-down flex-shrink-0 rounded-md h-6 w-6"
                       aria-hidden="true"
                       src="https://tribe-s3-production.imgix.net/Yw7bjAiJpROcRbt2ddbDV?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
                     />
                   </div>
                 </div>
-                <div className="truncate">About Campfire</div>
+                <div className="truncate">About Tribe</div>
               </a>
               <a
-                className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
+                className="ml-6 text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
                 href="/say-hello"
               >
                 <div className="mr-3 -ml-1">
@@ -171,7 +171,7 @@ export default function LeftSidebar() {
           <div id="headlessui-disclosure-panel-6">
             <div className="space-y-1" role="group">
               <a
-                className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
+                className="ml-6 text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
                 href="/knowledge-base-2-0"
               >
                 <div className="mr-3 -ml-1">
@@ -187,7 +187,7 @@ export default function LeftSidebar() {
                 <div className="truncate">Knowledge Base</div>
               </a>
               <a
-                className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
+                className="ml-6 text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
                 href="/community-success"
               >
                 <div className="mr-3 -ml-1">
@@ -203,7 +203,7 @@ export default function LeftSidebar() {
                 <div className="truncate">Community Insights</div>
               </a>
               <a
-                className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
+                className="ml-6 text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
                 href="/tips-tricks"
               >
                 <div className="mr-3 -ml-1">
@@ -253,7 +253,7 @@ export default function LeftSidebar() {
           <div id="headlessui-disclosure-panel-8">
             <div className="space-y-1" role="group">
               <a
-                className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
+                className="ml-6 text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
                 href="/support-2-0"
               >
                 <div className="mr-3 -ml-1">
@@ -269,7 +269,7 @@ export default function LeftSidebar() {
                 <div className="truncate">Ask for Help</div>
               </a>
               <a
-                className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
+                className="ml-6 text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
                 href="/show-and-tell"
               >
                 <div className="mr-3 -ml-1">
@@ -285,7 +285,7 @@ export default function LeftSidebar() {
                 <div className="truncate">Show &amp; Tell</div>
               </a>
               <a
-                className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
+                className="ml-6 text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
                 href="/tribe-2-feedback"
               >
                 <div className="mr-3 -ml-1">
@@ -301,7 +301,7 @@ export default function LeftSidebar() {
                 <div className="truncate">Give Feedback</div>
               </a>
               <a
-                className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
+                className="ml-6 text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
                 href="/devhub"
               >
                 <div className="mr-3 -ml-1">
@@ -317,7 +317,7 @@ export default function LeftSidebar() {
                 <div className="truncate">DevHub</div>
               </a>
               <a
-                className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
+                className="ml-6 text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
                 href="/beta-feedback"
               >
                 <div className="mr-3 -ml-1">
@@ -369,7 +369,7 @@ export default function LeftSidebar() {
           <div id="headlessui-disclosure-panel-10">
             <div className="space-y-1" role="group">
               <a
-                className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
+                className="ml-6 text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
                 href="/announcements"
               >
                 <div className="mr-3 -ml-1">
@@ -385,7 +385,7 @@ export default function LeftSidebar() {
                 <div className="truncate">Company News</div>
               </a>
               <a
-                className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
+                className="ml-6 text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
                 href="/whats-new"
               >
                 <div className="mr-3 -ml-1">
@@ -435,7 +435,7 @@ export default function LeftSidebar() {
           <div id="headlessui-disclosure-panel-12">
             <div className="space-y-1" role="group">
               <a
-                className="text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
+                className="ml-6 text-basicMain-600 hover:bg-main-100 hover:text-basicMain-900 group flex items-center px-3 py-2 leading-5 rounded-md"
                 href="/tribe-1-knowledge-base"
               >
                 <div className="mr-3 -ml-1">

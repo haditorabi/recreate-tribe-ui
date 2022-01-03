@@ -470,7 +470,7 @@ export default function SamplePost() {
                     </div>
                   </div>
                 </div>
-                <div className="absolute -z-10 w-[2px] ml-[-1px] top-1 left-6 bottom-0 bg-surface-200"></div>
+                {/* <div className="absolute -z-10 w-[2px] ml-[-1px] top-1 left-6 bottom-0 bg-surface-200"></div> */}
               </div>
             </div>
           </div>
@@ -570,7 +570,7 @@ export default function SamplePost() {
               What are your thoughts?
             </a>
           </div>
-          <div className="absolute -z-10 w-[2px] ml-[-1px] top-1 left-6 bottom-0 bg-surface-200"></div>
+          <div className="absolute -z-10 w-16 rounded-md ml-[-1px] border-l-2 border-b-2 top-1 left-6 bottom-0 border-l-[#999796] h-[270px] "></div>
         </div>
       </div>
     </div>
