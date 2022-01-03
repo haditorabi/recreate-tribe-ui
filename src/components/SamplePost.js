@@ -147,7 +147,7 @@ export default function SamplePost() {
         </div>
       </div>
       <div className="">
-        <div className="flex-1 px-4 flex space-x-4 py-0 sm:p-1 sm:px-6">
+        <div className="flex-1 px-4 flex space-x-4 py-0 sm:p-1 sm:px-6 border-t-2 border-b-2 py-3">
           <div className="flex-1 flex group">
             <div
               className="flex-1 flex"
@@ -244,7 +244,7 @@ export default function SamplePost() {
       </div>
       <div className="flex-1 py-5 sm:p-6 flex flex-col space-y-6 px-5">
         <a
-          className="text-sm leading-5 font-medium text-basicSurface-500"
+          className="text-sm leading-5 font-medium text-actionAccent-600"
           href="/whats-new/post/improvements-to-user-experience-engagement-and-content-structure-4pfSf2qx68a794S"
         >
           View 19 more replies
