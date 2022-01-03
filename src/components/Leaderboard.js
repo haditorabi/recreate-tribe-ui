@@ -74,14 +74,14 @@ export default function Leadeboard() {
                             alt="Eli "
                           />
                         </span>
-                        <div className="flex-grow w-50 overflow-hidden">
+                        <div className="flex-grow w-100 overflow-hidden">
                           <div className="truncate text-basicSurface-900">
                             User 4{" "}
+                            <span className="text-md font-light w-5 ml-2 text-center text-basicSurface-500">
+                              120 <small>Pts</small>
+                            </span>
                           </div>
                         </div>
-                        <span className="text-lg font-medium w-5 text-center flex-shrink-0 whitespace-nowrap">
-                          {index + 1}
-                        </span>
                         <div>
                           <svg
                             fill="none"
