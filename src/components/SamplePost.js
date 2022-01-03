@@ -147,7 +147,7 @@ export default function SamplePost() {
         </div>
       </div>
       <div className="">
-        <div className="flex-1 px-4 flex space-x-4 py-0 sm:p-1 sm:px-6 border-t-2 border-b-2 py-3">
+        <div className="flex-1 px-4 flex space-x-4 sm:p-1 sm:px-6 border-t-2 border-b-2 py-1">
           <div className="flex-1 flex group">
             <div
               className="flex-1 flex"
