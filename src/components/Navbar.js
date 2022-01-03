@@ -135,7 +135,7 @@ export default function Navbar() {
                           </span>
                         </span>
                       </div>
-                      <span className="absolute top-0 right-0 transform translate-x-1/2 text-danger-100 bg-danger-600 rounded-full h-5 inline-flex items-center justify-center px-1.5 py-1 text-xs font-bold leading-none translate-y-0">
+                      <span className="absolute top-0 right-0 transform translate-x-1/2 text-danger-100 bg-danger-500 rounded-full h-5 inline-flex items-center justify-center px-1.5 py-1 text-xs font-bold leading-none translate-y-0">
                         1
                       </span>
                     </div>

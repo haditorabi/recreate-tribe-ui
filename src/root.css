@@ -3786,6 +3786,9 @@ select {
 .bg-actionSecondary-100 {
   background-color: var(--tribe-color-actionSecondary-100);
 }
+.bg-danger-500 {
+  background-color: var(--tribe-color-danger-500);
+}
 .bg-danger-600 {
   background-color: var(--tribe-color-danger-600);
 }
