@@ -155,7 +155,7 @@ export default function SamplePost() {
             >
               <button
                 type="button"
-                className="inline-flex items-center relative focus:outline-none focus-visible:ring text-basicSurface-500 border border-neutral-300 bg-surface-50 hover:bg-surface-100 font-medium shadow-sm px-4 py-2 text-sm rounded-md w-full block justify-center group"
+                className="inline-flex items-center relative focus:outline-none focus-visible:ring text-basicSurface-500 bg-surface-50 hover:bg-surface-100 font-medium hover:shadow-sm px-4 py-2 text-sm rounded-md w-full block justify-center group"
               >
                 <span className="flex">
                   <span className="inline-flex items-center">
@@ -185,7 +185,7 @@ export default function SamplePost() {
           <div className="flex-1 flex">
             <button
               type="button"
-              className="inline-flex items-center relative focus:outline-none focus-visible:ring text-basicSurface-500 border border-neutral-300 bg-surface-50 hover:bg-surface-100 font-medium shadow-sm px-4 py-2 text-sm rounded-md w-full block justify-center group"
+              className="inline-flex items-center relative focus:outline-none focus-visible:ring text-basicSurface-500 bg-surface-50 hover:bg-surface-100 font-medium hover:shadow-sm px-4 py-2 text-sm rounded-md w-full block justify-center group"
             >
               <span className="flex">
                 <span className="inline-flex items-center">
@@ -214,7 +214,7 @@ export default function SamplePost() {
           <div className="flex-1 flex">
             <button
               type="button"
-              className="inline-flex items-center relative focus:outline-none focus-visible:ring text-basicSurface-500 border border-neutral-300 bg-surface-50 hover:bg-surface-100 font-medium shadow-sm px-4 py-2 text-sm rounded-md w-full block justify-center group"
+              className="inline-flex items-center relative focus:outline-none focus-visible:ring text-basicSurface-500 bg-surface-50 hover:bg-surface-100 font-medium hover:shadow-sm px-4 py-2 text-sm rounded-md w-full block justify-center group"
             >
               <span className="flex">
                 <span className="inline-flex items-center">
