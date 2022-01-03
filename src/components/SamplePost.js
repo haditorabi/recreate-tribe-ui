@@ -66,6 +66,21 @@ export default function SamplePost() {
               </a>
             </h2>
             <article className="mt-2 text-md text-basicSurface-700">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <a
+                className="cursor-pointer transition duration-100 ease-in-out text-actionAccent-600 hover:text-actionAccentHover-500 inline-block mb-3"
+                href="/"
+              >
+                See more
+              </a>
               <h2 className="text-lg">Figure Caption</h2>
               <div className="-ml-6 -mr-6">
                 <div className="embed" data-embed-id="SelsyWhj3KKB0PIazoRMj">
@@ -107,22 +122,7 @@ export default function SamplePost() {
                   </div>
                 </div>
               </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
             </article>
-            <a
-              className="cursor-pointer transition duration-100 ease-in-out text-actionAccent-600 hover:text-actionAccentHover-500 inline-block"
-              href="/"
-            >
-              See more
-            </a>
           </div>
           <div className="flex -ml-2 -mt-2 flex-wrap mb-2">
             <span className="inline-flex items-center font-medium  bg-surface-200 text-basicSurface-800 focus:outline-none focus-visible:ring px-3 py-0.5 text-sm rounded-full  ml-2 mt-2">
