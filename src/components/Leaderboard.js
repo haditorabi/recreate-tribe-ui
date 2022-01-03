@@ -61,7 +61,7 @@ export default function Leadeboard() {
                   allowFullScreentabIndex="0"
                 >
                   <div className="grid grid-cols-1 gap-1 -ml-2 -mr-2">
-                    {[...Array(10)].map((x, index) => (
+                    {[...Array(3)].map((x, index) => (
                       <a
                         key={index}
                         className="hover-trigger flex space-x-3 items-center p-2 rounded-md hover:bg-surface-100"
@@ -70,13 +70,13 @@ export default function Leadeboard() {
                         <span className="inline-block relative flex-shrink-0">
                           <img
                             className="bg-surface-50 inline-block object-cover object-center rounded-full h-10 w-10"
-                            src="https://tribe-s3-production.imgix.net/HEHU80kJxIRbjahSDgxK2?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
+                            src="https://www.pngitem.com/pimgs/m/30-307416_profile-icon-png-image-free-download-searchpng-employee.png"
                             alt="Eli "
                           />
                         </span>
                         <div className="flex-grow w-50 overflow-hidden">
                           <div className="truncate text-basicSurface-900">
-                            Eli{" "}
+                            User 4{" "}
                           </div>
                         </div>
                         <span className="text-lg font-medium w-5 text-center flex-shrink-0 whitespace-nowrap">
@@ -100,6 +100,12 @@ export default function Leadeboard() {
                         </div>
                       </a>
                     ))}
+                    <a
+                      className="cursor-pointer transition duration-100 ease-in-out text-actionAccent-600 hover:text-actionAccentHover-500 inline-block"
+                      href="/"
+                    >
+                      See more
+                    </a>
                   </div>
                 </div>
               </div>

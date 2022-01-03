@@ -9,15 +9,15 @@ export default function SamplePost() {
               <span className="inline-block relative flex-shrink-0">
                 <img
                   className="bg-surface-50 inline-block object-cover object-center rounded-full h-12 w-12"
-                  src="https://tribe-s3-production.imgix.net/mwWQPDgXpOZL0nD3RjNHe?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
-                  alt="Matin Esfahani"
+                  src="https://www.pngitem.com/pimgs/m/30-307416_profile-icon-png-image-free-download-searchpng-employee.png"
+                  alt="User 1"
                 />
               </span>
             </a>
             <div className="overflow-hidden flex-grow -mb-1">
               <div className="truncate max-w-full flex items-center text-basicSurface-900">
                 <a className="font-medium truncate" href="/member/jht1haDpWY">
-                  Matin Esfahani
+                  User 1
                 </a>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ export default function SamplePost() {
                   dateTime="2021-12-27T18:29:49.782Z"
                   title="12/27/2021, 1:29:49 PM"
                 >
-                  6 days ago
+                  1 days ago
                 </time>
                 <span> · Product @ Tribe</span>
               </a>
@@ -62,14 +62,11 @@ export default function SamplePost() {
                 className="text-basicSurface-900 block text-2xl mb-4"
                 href="/whats-new/post/improvements-to-user-experience-engagement-and-content-structure-4pfSf2qx68a794S"
               >
-                Improvements to user experience, engagement, and community
-                structure
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit
               </a>
             </h2>
             <article className="mt-2 text-md text-basicSurface-700">
-              <h2 className="text-lg">
-                Early preview released on December 27, 2021
-              </h2>
+              <h2 className="text-lg">Figure Caption</h2>
               <div className="-ml-6 -mr-6">
                 <div className="embed" data-embed-id="SelsyWhj3KKB0PIazoRMj">
                   <div className="preview relative w-full">
@@ -89,7 +86,7 @@ export default function SamplePost() {
                           }}
                         >
                           <iframe
-                            src="//cdn.iframe.ly/api/iframe?url=https%3A%2F%2Fwww.loom.com%2Fshare%2F107665aaf4cd44a4ae4060c2cd26e10f&amp;key=29ae8f7432aadad5ca7c91b46030e818"
+                            src="http://via.placeholder.com/640x360"
                             title="87654"
                             style={{
                               top: "0",
@@ -109,11 +106,14 @@ export default function SamplePost() {
                   </div>
                 </div>
               </div>
-              <p>Hey, everyone 👋</p>
               <p>
-                One of the advantages of being a community-led company is
-                building communities of enthusiastic customers who would help
-                you to shape the ...
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
             </article>
             <a
@@ -125,60 +125,23 @@ export default function SamplePost() {
           </div>
           <div className="flex -ml-2 -mt-2 flex-wrap mb-2">
             <span className="inline-flex items-center font-medium  bg-surface-200 text-basicSurface-800 focus:outline-none focus-visible:ring px-3 py-0.5 text-sm rounded-full  ml-2 mt-2">
-              Themes
+              Tag1
             </span>
             <span className="inline-flex items-center font-medium  bg-surface-200 text-basicSurface-800 focus:outline-none focus-visible:ring px-3 py-0.5 text-sm rounded-full  ml-2 mt-2">
-              Member Directory
+              Tag2
             </span>
             <span className="inline-flex items-center font-medium  bg-surface-200 text-basicSurface-800 focus:outline-none focus-visible:ring px-3 py-0.5 text-sm rounded-full  ml-2 mt-2">
-              Leaderboard
+              Tag3
             </span>
             <span className="inline-flex items-center font-medium  bg-surface-200 text-basicSurface-800 focus:outline-none focus-visible:ring px-3 py-0.5 text-sm rounded-full  ml-2 mt-2">
-              Customization
+              Tag4
             </span>
             <span className="inline-flex items-center font-medium  bg-surface-200 text-basicSurface-800 focus:outline-none focus-visible:ring px-3 py-0.5 text-sm rounded-full  ml-2 mt-2">
-              Feed
+              Tag5
             </span>
             <span className="inline-flex items-center font-medium  bg-surface-200 text-basicSurface-800 focus:outline-none focus-visible:ring px-3 py-0.5 text-sm rounded-full  ml-2 mt-2">
-              Feature Announcement
+              Tag6
             </span>
-          </div>
-          <div className="flex h-7 space-x-3">
-            <div className="flex-grow">
-              <div className="flex items-center">
-                <div>
-                  <a
-                    href="/#"
-                    className="cursor-pointer transition duration-100 ease-in-out text-actionAccent-600 hover:text-actionAccentHover-500 rounded-full w-9 h-7 border-2 border-neutral-100 -mr-2 flex items-center justify-center overflow-hidden bg-surface-200 hover:bg-surface-300"
-                  >
-                    <span
-                      aria-label="👍, +1, thumbsup"
-                      className="emoji-mart-emoji emoji-mart-emoji-native"
-                    >
-                      <span style={{ fontSize: "18px" }}>👍</span>
-                    </span>
-                  </a>
-                </div>
-                <div>
-                  <a
-                    href="/#"
-                    className="cursor-pointer transition duration-100 ease-in-out text-actionAccent-600 hover:text-actionAccentHover-500 rounded-full w-9 h-7 border-2 border-neutral-100 -mr-2 flex items-center justify-center overflow-hidden bg-surface-200 hover:bg-surface-300"
-                  >
-                    <span
-                      aria-label="🎉, tada"
-                      className="emoji-mart-emoji emoji-mart-emoji-native"
-                    >
-                      <span style={{ fontSize: "18px" }}>🎉</span>
-                    </span>
-                  </a>
-                </div>
-                <div className="mx-3 text-basicSurface-500 text-sm">15</div>
-              </div>
-            </div>
-            <div className="text-basicSurface-500 hidden sm:block">
-              3 followers
-            </div>
-            <div className="text-basicSurface-500">21 replies</div>
           </div>
         </div>
       </div>
@@ -196,21 +159,26 @@ export default function SamplePost() {
               >
                 <span className="flex">
                   <span className="inline-flex items-center">
-                    <div
-                      className="h-5 w-5 -ml-1 mr-2 h-6 w-6 flex items-center"
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
                       aria-hidden="true"
+                      class="h-5 w-5 -ml-1 mr-2 w-6 h-6 transition-transform group-hover:-rotate-12"
                       focusable="false"
                     >
-                      <span
-                        aria-label="👍, +1, thumbsup"
-                        className="emoji-mart-emoji emoji-mart-emoji-native"
-                      >
-                        <span style={{ fontSize: "18px" }}>👍</span>
-                      </span>
-                    </div>
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5"
+                      ></path>
+                    </svg>
                     Like
                   </span>
                 </span>
+                <span className="mx-2">2.1k</span>
               </button>
             </div>
           </div>
@@ -240,6 +208,7 @@ export default function SamplePost() {
                   Follow
                 </span>
               </span>
+              <span className="mx-2">100</span>
             </button>
           </div>
           <div className="flex-1 flex">
@@ -286,8 +255,8 @@ export default function SamplePost() {
                 <span className="inline-block relative flex-shrink-0">
                   <img
                     className="bg-surface-50 inline-block object-cover object-center rounded-full h-12 w-12"
-                    src="https://tribe-s3-production.imgix.net/IpVEWVZDHvpyTA1RSvFnZ?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
-                    alt="juanito "
+                    src="https://www.pngitem.com/pimgs/m/30-307416_profile-icon-png-image-free-download-searchpng-employee.png"
+                    alt="User 2 "
                   />
                 </span>
               </a>
@@ -299,7 +268,7 @@ export default function SamplePost() {
                     className="font-medium text-basicSurface-900 truncate"
                     href="/member/dKS02I4Yld"
                   >
-                    juanito{" "}
+                    User 2{" "}
                   </a>
                   <div className="flex items-center"></div>
                 </div>
@@ -308,48 +277,18 @@ export default function SamplePost() {
                     dateTime="2021-12-30T21:32:59.400Z"
                     title="12/30/2021, 4:32:59 PM"
                   >
-                    3 days ago
+                    1 days ago
                   </time>
                 </div>
               </div>
               <div className="max-w-full break-words mb-2">
                 <article className="mt-2 text-md text-basicSurface-700">
                   <p>
-                    <a
-                      className="cursor-pointer transition duration-100 ease-in-out text-actionAccent-600 hover:text-actionAccentHover-500"
-                      href="/member/5b1f99a7478dd3768d84b646"
-                    >
-                      @Siavash
-                    </a>{" "}
-                    <a
-                      className="cursor-pointer transition duration-100 ease-in-out text-actionAccent-600 hover:text-actionAccentHover-500"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://community.tribe.so/member/9FWKl7YerU"
-                    >
-                      <strong> </strong>
-                    </a>
-                  </p>
-                  <p>
-                    <em>RE: </em>
-                  </p>
-                  <p>
-                    <em>Thanks for bringing this up, </em>
-                    <a
-                      className="cursor-pointer transition duration-100 ease-in-out text-actionAccent-600 hover:text-actionAccentHover-500"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      href="https://community.tribe.so/member/dKS02I4Yld"
-                    >
-                      <em>@juanito </em>
-                    </a>
-                    <em>.</em>
-                  </p>
-                  <p>
                     <em>
-                      I tried many ways, however, I was not able to replicate
-                      this issue. Was it a private or hidden space? Is it
-                      possible that you got logged out when ...
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.{" "}
                     </em>
                   </p>
                 </article>
@@ -398,8 +337,8 @@ export default function SamplePost() {
                       <span className="inline-block relative flex-shrink-0">
                         <img
                           className="bg-surface-50 inline-block object-cover object-center rounded-full h-12 w-12"
-                          src="https://tribe-s3-production.imgix.net/Az0oAq9gWidQEKZp2B4Hb?w=200&amp;h=200&amp;auto=compress,format&amp;dl"
-                          alt="Siavash"
+                          src="https://www.pngitem.com/pimgs/m/30-307416_profile-icon-png-image-free-download-searchpng-employee.png"
+                          alt="User 3"
                         />
                       </span>
                     </a>
@@ -411,7 +350,7 @@ export default function SamplePost() {
                           className="font-medium text-basicSurface-900 truncate"
                           href="/member/9FWKl7YerU"
                         >
-                          Siavash
+                          User 3<span> · CEO at Tribe</span>
                         </a>
                         <div className="flex items-center"></div>
                       </div>
@@ -420,20 +359,22 @@ export default function SamplePost() {
                           dateTime="2021-12-31T01:43:18.240Z"
                           title="12/30/2021, 8:43:18 PM"
                         >
-                          3 days ago
+                          1 days ago
                         </time>
-                        <span> · CEO at Tribe</span>
                       </div>
                     </div>
                     <div className="max-w-full break-words mb-2">
                       <article className="mt-2 text-md text-basicSurface-700">
                         <p>
-                          The pin feature should be up on the Beta version as we
-                          speak. Let me know if you still don't see it.
-                        </p>
-                        <p>
-                          We will keep the beta toggle until we have everything
-                          on the new UI, however, we need to replicate ...
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo consequat. Duis aute irure dolor in
+                          reprehenderit in voluptate velit esse cillum dolore eu
+                          fugiat nulla pariatur. Excepteur sint occaecat
+                          cupidatat non proident, sunt in culpa qui officia
+                          deserunt mollit anim id est laborum.
                         </p>
                       </article>
                       <a
@@ -479,7 +420,7 @@ export default function SamplePost() {
               <a href="/member/8xL26K7aud">
                 <span className="inline-flex relative items-center justify-center flex-shrink-0 bg-surface-200 rounded-full h-12 w-12">
                   <span className="text-lg font-medium leading-none text-basicSurface-500">
-                    GS
+                    U5
                   </span>
                 </span>
               </a>
@@ -491,7 +432,7 @@ export default function SamplePost() {
                     className="font-medium text-basicSurface-900 truncate"
                     href="/member/8xL26K7aud"
                   >
-                    Greg S
+                    َUser 5
                   </a>
                   <div className="flex items-center"></div>
                 </div>
@@ -507,15 +448,11 @@ export default function SamplePost() {
               <div className="max-w-full break-words mb-2">
                 <article className="mt-2 text-md text-basicSurface-700">
                   <p>
-                    The improvements are great!
-                    <br />
-                  </p>
-                  <p>
-                    You "Must" add an Alert approach to destructive actions like
-                    "Leave" so users can confirm they know what they are doing!
-                    <br />
-                    <br />
-                    Thanks!
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate
                   </p>
                 </article>
               </div>
@@ -570,7 +507,7 @@ export default function SamplePost() {
               What are your thoughts?
             </a>
           </div>
-          <div className="absolute -z-10 w-16 rounded-md ml-[-1px] border-l-2 border-b-2 top-1 left-6 bottom-0 border-l-[#999796] h-[270px] "></div>
+          <div className="absolute -z-10 w-16 rounded-md ml-[-1px] border-l-2 border-b-2 top-1 left-6 bottom-0 border-l-[#999796] h-[220px] "></div>
         </div>
       </div>
     </div>
