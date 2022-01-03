@@ -4519,6 +4519,9 @@ select {
 .focus\:border-actionSecondary-600:focus {
   border-color: var(--tribe-color-actionSecondary-600);
 }
+.focus\:border-actionSecondary-700:focus {
+  border-color: var(--tribe-color-actionSecondary-700);
+}
 .focus\:bg-actionPrimary-500:focus {
   background-color: var(--tribe-color-actionPrimary-500);
 }

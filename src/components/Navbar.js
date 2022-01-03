@@ -61,7 +61,7 @@ export default function Navbar() {
                         </div>
                         <input
                           type="text"
-                          className="block w-full rounded-md px-3 py-2 appearance-none focus:outline-none focus:ring-1 text-basicSecondary-500 bg-actionSecondary-50 placeholder-basicSecondary-300 focus:ring-actionSecondary-600 focus:border-actionSecondary-600 border border-neutral-300 pl-10"
+                          className="block w-full rounded-md px-3 py-2 appearance-none focus:outline-none focus:ring-1 text-basicSecondary-500 bg-actionSecondary-50 placeholder-basicSecondary-300 focus:ring-actionSecondary-600 focus:border-actionSecondary-700 border border-neutral-300 pl-10"
                           id="downshift-149-input"
                           aria-autocomplete="list"
                           aria-controls="downshift-149-menu"
