@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import LeftSidebar from "./components/LeftSidebar";
 import MainContent from "./components/MainContent";
+import Leaderboard from "./components/Leaderboard";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <div className="max-w-9xl mx-0 sm:px-0 lg:px-0 w-full grid grid-cols-12 gap-5 overflow-y-auto pb-5 h-screen">
           <LeftSidebar />
           <MainContent />
+          <Leaderboard />
         </div>
       </div>
     </>
