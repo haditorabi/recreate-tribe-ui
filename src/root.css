@@ -1196,6 +1196,9 @@ select {
 .max-w-8xl {
   max-width: 84rem;
 }
+.max-w-9xl {
+  max-width: 90rem;
+}
 .max-w-xs {
   max-width: 20rem;
 }

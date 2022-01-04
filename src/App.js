@@ -10,7 +10,7 @@ export default function App() {
           <Navbar />
         </div>
         {/* main container */}
-        <div className="max-w-8xl  mx-auto sm:px-6 lg:px-8 w-full grid grid-cols-12 gap-5 overflow-hidden pb-5 h-screen">
+        <div className="max-w-9xl  mx-0 sm:px-0 lg:px-0 w-full grid grid-cols-12 gap-5 overflow-hidden pb-5 h-screen">
           <LeftSidebar />
           <MainContent />
         </div>
