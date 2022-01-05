@@ -2,7 +2,7 @@ import React from "react";
 export default function LeftSidebar() {
   return (
     <aside
-      className="hidden lg:block lg:col-span-3 xl:col-span-3 pt-5 sm:pt-7 overflow-y-auto h-screen"
+      className="hidden lg:block lg:col-span-3 xl:col-span-3 pt-5 sm:pt-7 overflow-y-auto h-screen no-scrollbar"
       aria-label="Sidebar"
     >
       <nav className="flex-1 space-y-8 isolate mb-5" aria-label="Sidebar">

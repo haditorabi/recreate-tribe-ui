@@ -4641,6 +4641,18 @@ select {
 .group:hover .group-hover\:text-basicMain-600 {
   color: var(--tribe-color-basicMain-600);
 }
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+body::-webkit-scrollbar,
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+body,
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
 @media (min-width: 640px) {
   .sm\:absolute {
     position: absolute;

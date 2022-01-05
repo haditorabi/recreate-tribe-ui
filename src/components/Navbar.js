@@ -1,7 +1,7 @@
 import React from "react";
 export default function Navbar() {
   return (
-    <div className="bg-actionSecondary-50 text-basicSecondary-500 shadow-sm lg:overflow-y-visible">
+    <div className="bg-actionSecondary-50 text-basicSecondary-500 shadow-sm lg:overflow-y-visible sticky">
       <div className="max-w-8xl mx-auto px-3 lg:px-8">
         <div className="grid grid-cols-12 h-16 gap-5">
           <div className="flex overflow-hidden items-center lg:col-span-3 col-span-5">

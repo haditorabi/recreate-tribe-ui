@@ -3,7 +3,7 @@ import Leaderboard from "./Leaderboard";
 import SamplePost from "./SamplePost";
 export default function MainContent() {
   return (
-    <main className="col-span-12 lg:col-span-9 xl:col-span-9 overflow-y-auto">
+    <main className="col-span-12 lg:col-span-9 xl:col-span-9 overflow-y-auto h-screen no-scrollbar">
       <div className="pull-to-refresh-content-wrapper">
         <div className="pull-to-refresh-content pull-to-refresh-down pull-to-refresh-transition">
           <div>
