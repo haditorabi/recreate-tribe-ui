@@ -3,7 +3,7 @@ import Copyright from "./Copyright";
 
 export default function LeadeBoard() {
   return (
-    <div className="hidden lg:block lg:col-span-3 sticky top-0 mb-auto mt-5 mr-6 overflow-y-auto">
+    <div className="hidden lg:block lg:col-span-3 sticky top-0 mb-auto mt-5 overflow-y-auto">
       <div className="mb-5">
         <div className="bg-surface-50 text-basicSurface-500 shadow flex flex-col justify-between isolate sm:rounded-lg">
           <div className="px-4 py-5 sm:p-6  pb-0 sm:pb-0">

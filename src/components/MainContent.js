@@ -7,8 +7,8 @@ export default function MainContent() {
         <div className="pull-to-refresh-content pull-to-refresh-down pull-to-refresh-transition">
           <div>
             <div className="pt-5 sm:pt-7">
-              <div className="grid grid-cols-12 gap-5">
-                <div className="col-span-12 lg:col-span-12">
+              <div className="grid grid-cols-6 gap-5">
+                <div className="col-span-6 lg:col-span-6">
                   <div>
                     <div className="grid grid-cols-1 gap-5">
                       <SamplePost />
