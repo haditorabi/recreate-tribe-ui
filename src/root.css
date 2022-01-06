@@ -4655,7 +4655,7 @@ body,
 }
 /* temporary solution */
 .main-container-height {
-  height: calc(100vh - 68px);
+  height: calc(100vh - 38px);
 }
 @media (min-width: 640px) {
   .sm\:absolute {
