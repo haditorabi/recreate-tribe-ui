@@ -11,7 +11,7 @@ export default function App() {
           <Navbar />
         </div>
         {/* main container */}
-        <div className="max-w-8xl mx-auto sm:px-6 lg:px-8 w-full grid grid-cols-12 gap-5 overflow-y-auto pb-5 h-screen no-scrollbar fixed right-0 left-0">
+        <div className="max-w-8xl mx-auto sm:px-6 lg:px-8 w-full grid grid-cols-12 gap-5 overflow-y-auto pb-5 main-container-height no-scrollbar fixed right-0 left-0">
           <LeftSidebar />
           <MainContent />
           <LeaderBoard />

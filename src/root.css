@@ -4653,6 +4653,10 @@ body,
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+/* temporary solution */
+.main-container-height {
+  height: calc(100vh - 68px);
+}
 @media (min-width: 640px) {
   .sm\:absolute {
     position: absolute;
