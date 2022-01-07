@@ -1,10 +1,10 @@
 import React from "react";
 import Copyright from "./Copyright";
 
-export default function Leadeboard() {
+export default function LeaderBoard() {
   return (
-    <div className="hidden lg:block lg:col-span-4 sticky top-0">
-      <div className="mb-5">
+    <div className="hidden lg:block lg:col-span-3 top-0">
+      <div className="pt-5 mb-5">
         <div className="bg-surface-50 text-basicSurface-500 shadow flex flex-col justify-between isolate sm:rounded-lg">
           <div className="px-4 py-5 sm:p-6  pb-0 sm:pb-0">
             <h3 className="text-basicSurface-900">Leaderboard</h3>
